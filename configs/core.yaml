@@ -1,0 +1,12 @@
+communication:
+    subscriptions:
+        url: localhost
+        ports: [5556]
+        topics: [INIT_REQ]
+
+logger:
+    path : strela_core_log
+    level: INFO
+
+params:
+    verify_data: True 
